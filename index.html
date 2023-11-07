@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Interview Questions System</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Learning Guide</h1>
+      <h2>Project By Eitan Lander</h2>
+    </header>
+
+    <main>
+      <form id="gptForm">
+        <img class="image" src="./assets/learn.gif" />
+        <br/>
+
+        <label for="ageBox">What is your Age?</label>
+        <input type="number" id="ageBox" required min="16" max="99" />
+
+        <!-- Add a class "question" to group all the questions -->
+        <div class="question">
+          <label for="q1">1. What are your passions and hobbies?</label>
+          <input type="text" id="q1" required />
+        </div>
+
+        <div class="question">
+          <label for="q2">2. Can you identify a specific problem or challenge in the world that you feel strongly about addressing?</label>
+          <input type="text" id="q2" required />
+        </div>
+
+        <div class="question">
+          <label for="q3">3. What subjects or activities do you find yourself naturally gravitating towards in your free time?</label>
+          <input type="text" id="q3" required />
+        </div>
+
+        <div class="question">
+          <label for="q4">4. Are there any books, movies, or documentaries that have left a lasting impact on you?</label>
+          <input type="text" id="q4" required />
+        </div>
+
+        <div class="question">
+          <label for="q5">5. When you daydream about your future, what kind of career or role do you envision yourself in?</label>
+          <input type="text" id="q5" required />
+        </div>
+
+        <div class="question">
+          <label for="q6">6. Do you enjoy working independently or in a team setting?</label>
+          <input type="text" id="q6" required />
+        </div>
+
+        <div class="question">
+          <label for="q7">7. Are you more drawn to creative and artistic pursuits, or do you prefer analytical and logical challenges?</label>
+          <input type="text" id="q7" required />
+        </div>
+
+        <div class="question">
+          <label for="q8">8. What subjects did you excel in during high school?</label>
+          <input type="text" id="q8" required />
+        </div>
+
+        <div class="question">
+          <label for="q9">9. Is there a particular skill or talent you possess that you would like to further develop through your education?</label>
+          <input type="text" id="q9" required />
+        </div>
+
+        <div class="question">
+          <label for="q10">10. Have you considered talking to professionals or experts in different fields to gain insights into their experiences and the nature of their work?</label>
+          <input type="text" id="q10" required />
+        </div>
+
+        <!-- Repeat the above div structure for each question -->
+
+        <button class="button-19" role="button" type="submit">What Should I Learn ?</button>
+      </form>
+
+      <div id="container"></div>
+    </main>
+  </body>
+</html>
